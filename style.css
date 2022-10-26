@@ -1,0 +1,48 @@
+body{
+	margin:0;
+	background-image:url(bg.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+#word{
+	letter-spacing:10px;
+	font-size:1.6rem;
+}
+button{
+	font-size:inherit;
+}
+.left{
+	float:left;
+}
+.container{
+	padding:40px;
+	margin-top:5vh;
+	background: #ffffff;
+}
+.right{
+	float:right;
+	padding:10px;
+	margin:20px;
+}
+#game{
+	padding:20px;
+	display:none;
+	overflow: auto;
+	border:3px solid black;
+	color:#333;
+	background:#f4f4f4;
+}
+#letters button{
+	margin:12px 8px 0 0px;
+	background:#f4f4f4;
+}
+#which{
+	display:none;
+	margin:10px	0;
+}
+
+@media(max-width:1000px){
+	body{
+		background-size:auto;
+	}
+}
